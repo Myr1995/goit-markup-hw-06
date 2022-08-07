@@ -115,7 +115,6 @@ address {
     display: flex;
     justify-content: center;
     align-items: center;
-    
     gap: 10px;
     transition: color var(--transition-dur-and-func);
 }
@@ -634,10 +633,10 @@ transform: translate(0, 100%);
     border-radius: 50%;
     width: 30px;
     height: 30px;
-    display: flex;
-    align-items: center;
 }
 .modal-close-button-icon {
+    width: 11px;
+    height: 11px;
    transition: fill var(--transition-dur-and-func); 
 }
 .modal-close-button:hover .modal-close-button-icon,
